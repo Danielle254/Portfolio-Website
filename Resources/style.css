@@ -91,8 +91,18 @@ footer {
 
 
 /* Certificates */
+.certificateContainer {
+    width: 60%;
+    margin: 0 auto;
+}
+
 .certificate {
     font-size: 2rem;
     font-weight: bold;
     color: black;
+    text-align: left;
+}
+
+.certificateContainer img {
+    
 }

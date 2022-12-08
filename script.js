@@ -8,12 +8,15 @@ const javascriptCertificate = document.getElementById('javascript_cert');
 
 
 // set all certificates to hidden as default
-pythonCertificate.hidden = true;
-intermediatePythonCertificate.hidden = true;
-htmlCertificate.hidden = true;
-cssCertificate.hidden = true;
-intermediateCSSCertificate.hidden = true;
-javascriptCertificate.hidden = true;
+window.onload = (event) => {
+
+    pythonCertificate.hidden = true;
+    intermediatePythonCertificate.hidden = true;
+    htmlCertificate.hidden = true;
+    cssCertificate.hidden = true;
+    intermediateCSSCertificate.hidden = true;
+    javascriptCertificate.hidden = true;
+}
 
 // create functions
 const showCertificate = (element) => {
