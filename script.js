@@ -1,6 +1,6 @@
 // declare variables
 const pythonCertificate = document.getElementById('python_cert');
-const intermediatePythonCertificate = documentgetElementById('intermediate_python_cert');
+const intermediatePythonCertificate = document.getElementById('intermediate_python_cert');
 const htmlCertificate = document.getElementById('html_cert');
 const cssCertificate = document.getElementById('css_cert');
 const intermediateCSSCertificate = document.getElementById('intermediate_css_cert');
