@@ -88,3 +88,11 @@ nav li a:hover {
 footer {
     margin-top: 3rem;
 }
+
+
+/* Certificates */
+.certificate {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
