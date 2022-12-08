@@ -35,10 +35,6 @@ nav ul {
     flex-flow: row wrap;
 }
 
-nav li {
-     
-     
-}
 
 nav li a {
     text-decoration: none; 
@@ -68,8 +64,7 @@ nav li a:hover {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .icon img {
