@@ -29,11 +29,15 @@ nav ul {
 }
 
 nav li {
-    display: inline;    
+    display: inline;  
+     
 }
 
 nav li a {
-    text-decoration: none;    
+    text-decoration: none; 
+    font-style: italic;
+    color: black;
+    margin: auto 2rem;
 }
 
 /* Skills & Contact Containers */
