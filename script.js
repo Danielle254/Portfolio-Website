@@ -12,6 +12,12 @@ const cssLink = document.getElementById('css');
 const intermediateCSSLink = document.getElementById('intermediate_css');
 const javascriptLink = document.getElementById('javascript');
 
+var pythonTimesClicked = 0;
+var intermediatePythonTimesClicked = 0;
+var htmlTimesClicked = 0;
+var cssTimesClicked = 0;
+var intermediateCSSTimesClicked = 0;
+var javascriptTimesClicked = 0;
 
 window.onload = (event) => {
     pythonCertificate.hidden = true;
@@ -24,21 +30,53 @@ window.onload = (event) => {
 
 
 pythonLink.addEventListener("click", () => {
-    pythonCertificate.hidden = false;
+    pythonTimesClicked++;
+    if (pythonTimesClicked % 2 === 1) {
+        pythonCertificate.hidden = false;
+    } else {
+        pythonCertificate.hidden = true;
+    }  
 });
 intermediatePythonLink.addEventListener("click", () => {
-    intermediatePythonCertificate.hidden = false;
+    intermediatePythonTimesClicked++;
+    if (intermediatePythonTimesClicked % 2 === 1) {
+        intermediatePythonCertificate.hidden = false;
+    } else {
+        intermediatePythonCertificate.hidden = true;
+    }  
 });
 htmlLink.addEventListener("click", () => {
-    htmlCertificate.hidden = false;
+    htmlTimesClicked++;
+    if (htmlTimesClicked % 2 === 1) {
+        htmlCertificate.hidden = false;
+    } else {
+        htmlCertificate.hidden = true;
+    }  
 });
 cssLink.addEventListener("click", () => {
-    cssCertificate.hidden = false;
+    cssTimesClicked++;
+    if (cssTimesClicked % 2 === 1) {
+        cssCertificate.hidden = false;
+    } else {
+        cssCertificate.hidden = true;
+    }  
 });
 intermediateCSSLink.addEventListener("click", () => {
-    intermediateCSSCertificate.hidden = false;
+    intermediateCSSTimesClicked++;
+    if (intermediateCSSTimesClicked % 2 === 1) {
+        intermediateCSSCertificate.hidden = false;
+    } else {
+        intermediateCSSCertificate.hidden = true;
+    }  
 });
 javascriptLink.addEventListener("click", () => {
-    javascriptCertificate.hidden = false;
+    javascriptTimesClicked++;
+    if (javascriptTimesClicked % 2 === 1) {
+        javascriptCertificate.hidden = false;
+    } else {
+        javascriptCertificate.hidden = true;
+    }    
 });
+
+
 
