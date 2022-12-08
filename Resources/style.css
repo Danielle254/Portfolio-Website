@@ -30,10 +30,13 @@ section {
 /* Header */
 nav ul {
     list-style: none; 
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 nav li {
-    display: inline;  
+     
      
 }
 
@@ -41,7 +44,7 @@ nav li a {
     text-decoration: none; 
     font-style: italic;
     color: black;
-    margin: auto 2rem;
+    margin: 2rem;
 }
 
 nav li a:hover {
@@ -56,6 +59,7 @@ nav li a:hover {
 
 #welcome img {
     border: 1rem black;
+    width: 50%;
 }
 
 /* Skills & Contact Containers */
@@ -70,11 +74,8 @@ nav li a:hover {
 
 .icon img {
     width: 3.5rem;
-    padding: 0 2rem;
+    padding: 2rem;
 }
-
-
-
 
 
 /* Projects */
@@ -107,5 +108,9 @@ footer {
 .certificate:hover {
     cursor: pointer;
     color: darkblue;
+}
+
+.certificateContainer img {
+    width: 100%;
 }
 
