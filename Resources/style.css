@@ -8,14 +8,18 @@ html {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h3 {
+    font-size: 1rem;
+}
+
+p {
     font-size: 1rem;
 }
 
@@ -38,6 +42,20 @@ nav li a {
     font-style: italic;
     color: black;
     margin: auto 2rem;
+}
+
+nav li a:hover {
+    color: darkgreen;
+}
+
+/* Welcome */
+#welcome p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#welcome img {
+    border: 1rem black;
 }
 
 /* Skills & Contact Containers */
