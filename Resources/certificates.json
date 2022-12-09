@@ -1,0 +1,44 @@
+[
+  {
+    "id": "python",
+    "src": "Resources/Certificates/python3.png",
+    "alt": "python certificate",
+    "img_id": "python_cert",
+    "inner_html": "Learn Python 3"
+  },
+  {
+    "id": "intermediate_python",
+    "src": "Resources/Certificates/intermediate_python.png",
+    "img_id": "intermediate_python_cert",
+    "alt": "python certificate",
+    "inner_html": "Intermediate Python"
+  },
+  {
+    "id": "html",
+    "src": "Resources/Certificates/html.png",
+    "alt": "html certificate",
+    "img_id": "html_cert",
+    "inner_html": "Learn HTML"
+  },
+  {
+    "id": "css",
+    "src": "Resources/Certificates/css.png",
+    "alt": "css certificate",
+    "img_id": "css_cert",
+    "inner_html": "Learn CSS"
+  },
+  {
+    "id": "intermediate_css",
+    "src": "Resources/Certificates/intermediate_css.png",
+    "alt": "css certificate",
+    "img_id": "intermediate_css_cert",
+    "inner_html": "Learn Intermediate CSS"
+  },
+  {
+    "id": "javascript",
+    "src": "Resources/Certificates/javascript.png",
+    "alt": "javascript certificate",
+    "img_id": "javascript_cert",
+    "inner_html": "Learn Javascript"
+  }
+]
