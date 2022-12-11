@@ -32,12 +32,11 @@ The function also makes sure that any target being passed in has the "certificat
 It then switches the state of the hidden attribute of the HTML element being sent to the function.
 
 */
-certContainer.addEventListener("click", (e) => {
+certContainer.addEventListener("click", (e, hiddenState = true) => {
   console.log(e);
   const eventTarget = e.target;
   const className = eventTarget.getAttribute("class");
-  if (className == "certificate") {
-    const hiddenState = eventTarget.nextElementSibling.hidden;
-    eventTarget.nextElementSibling.hidden = !hiddenState;
-  }
+  className == "certificate" && eventTarget.nextElementSibling.hidden
+    ? (eventTarget.nextElementSibling.hidden = !hiddenState)
+    : (eventTarget.nextElementSibling.hidden = hiddenState);
 });
